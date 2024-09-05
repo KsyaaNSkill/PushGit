@@ -1,0 +1,63 @@
+.home{
+    text-align: center;
+}
+
+/* Profil */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /
+}
+
+.latar {
+    background-color: lightgrey;
+    border-radius: 6px;
+    position: relative; bottom: 70px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.gambar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.email {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.teks {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.data {
+text-align: left;
+}
+
+footer {
+    background-color:darkolivegreen;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
